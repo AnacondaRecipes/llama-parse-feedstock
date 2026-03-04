@@ -22,9 +22,6 @@ requirements:
   run:
     - python
     - llama-cloud-services >=0.6.94
-    - llama-index-core >=0.11.0
-    - pydantic !=2.10
-    - click >=8.1.7,<9.0.0
 
 test:
   imports:
@@ -50,4 +47,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - AnacondaRecipes/support
+    - pavelzw
+    - jan-janssen
