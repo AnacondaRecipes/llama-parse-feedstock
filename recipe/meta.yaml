@@ -1,5 +1,5 @@
 {% set name = "llama-parse" %}
-{% set version = "0.6.94" %}
+{% set version = "0.6.54" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/llama_parse-{{ version }}.tar.gz
-  sha256: d9e4347ec6caa1e9d5266cc5d4d8b29a29aa0d0948d921a26c73d3e4aaf5ba72
+  sha256: c707b31152155c9bae84e316fab790bbc8c85f4d8825ce5ee386ebeb7db258f1
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python
-    - llama-cloud-services >=0.6.94
+    - llama-cloud-services >=0.6.54
 
 test:
   imports:
